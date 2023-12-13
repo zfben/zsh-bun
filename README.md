@@ -26,7 +26,7 @@ A zsh plugin for using `b` as [`bun`](https://bun.sh/) aliases and more.
 
 ```zsh
 git clone --depth=1 https://github.com/zfben/zsh-bun.git ~/.zsh-bun
-echo 'source ~/.zsh-bun/bun.plugin.zsh' >>~/.zshrc
+echo 'source ~/.zsh-bun/zsh-bun.plugin.zsh' >>~/.zshrc
 ```
 
 ### Using [oh-my-zsh](https://github.com/ohmyzsh/oh-my-zsh)
