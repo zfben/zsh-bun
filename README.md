@@ -31,8 +31,4 @@ echo 'source ~/.zsh-bun/zsh-bun.plugin.zsh' >>~/.zshrc
 
 ### Using [oh-my-zsh](https://github.com/ohmyzsh/oh-my-zsh)
 
-Execute `git clone https://github.com/zfben/zsh-bun ~/.oh-my-zsh/custom/plugins/zsh-bun`. Add `zsh-bun` into plugins array in `.zshrc`
-
-### Using [zpm](https://github.com/zpm-zsh/zpm)
-
-Add `zpm load zfben/zsh-bun` into .zshrc
+Execute `git clone --depth=1 https://github.com/zfben/zsh-bun.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-bun`. Add `zsh-bun` into plugins array in `.zshrc`
