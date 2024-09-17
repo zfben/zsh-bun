@@ -19,6 +19,7 @@ A zsh plugin for using `b` as [`bun`](https://bun.sh/) aliases and more.
 | `bt` | `bun test`
 | `bs` | `bun start`
 | `bl` | `bun lint`
+| `brb` | `bun run build`
 
 ## Install
 
@@ -32,3 +33,16 @@ echo 'source ~/.zsh-bun/zsh-bun.plugin.zsh' >>~/.zshrc
 ### Using [oh-my-zsh](https://github.com/ohmyzsh/oh-my-zsh)
 
 Execute `git clone --depth=1 https://github.com/zfben/zsh-bun.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-bun`. Add `zsh-bun` into plugins array in `.zshrc`
+
+## Update
+
+### Manual
+
+```zsh
+cd ~/.zsh-bun
+git pull
+```
+
+### Using [oh-my-zsh](https://github.com/ohmyzsh/oh-my-zsh)
+
+Execute `cd ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-bun && git pull` to update.
